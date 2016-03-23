@@ -1,4 +1,10 @@
+Codepen.io/saamerm
+For all my work on HTML
+++++++++++++++++++++++++++++
+============================
+Smashing HTML5
 # HTML5
+
 <head>
     <title>Smashing HTML5!</title>
     <meta charset="utf-8">
@@ -12,7 +18,7 @@
 //Header should have (h1) the google search keywords. Googles algorithm is set to read that h1
 //container sticks everything to the center -power of bootstrap
 //Main semantic tags-DateTime, Author, Side, Main
-
+/*
 <body
 main class container
 header
@@ -33,7 +39,7 @@ nav class navbar navbar - default container -fluid
 </button>
 <a class ="navbar-brand visible-xs" href="#">Menu</a>
 </div>
-
+*/
 //_________________________________________________
 <body>
     <main class="container">
@@ -46,6 +52,7 @@ nav class navbar navbar - default container -fluid
         </header>
 
         <nav class="navbar navbar-default container-fluid">
+        //3 different classes given to nav for bootstrap
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -60,6 +67,7 @@ nav class navbar navbar - default container -fluid
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">home</a></li>
+                    //home-This is where you are now, may not be selectable
                     <li><a href="#">portfolio</a></li>
                     <li><a href="#">blog</a></li>
                     <li><a href="#">contact</a></li>
