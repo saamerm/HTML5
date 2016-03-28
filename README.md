@@ -1,6 +1,8 @@
 Codepen.io/saamerm
 For all my work on HTML
 ++++++++++++++++++++++++++++
+https://www.w3.org/TR/2012/WD-html5-20121025/ Best source
+http://www.w3schools.com/html/html_headings.asp Good source
 ============================
 Smashing HTML5
 +++++++++++++++++++
