@@ -6,6 +6,31 @@ https://www.w3.org/TR/2012/WD-html5-20121025/ Best source
 ++++++++++++++++++++++++++++++++++++++++
 http://www.w3schools.com/html/html_headings.asp Good source
 ============================
+HTML5 Canvas tag
+Drop shadow on font, Which is in front of a yellow circle which is in front of a blue rectangle
+
+<head>
+<script type="text/javascript">
+function onLoad(){
+    var canvas=document.getElementById("myCanvas");
+    var context=canvas.getContext("2d)
+    context.fillStyle="Blue";
+    context.fillRext(0,0,500,100")
+context.fillStyle="yellow";
+    context.beginPath()
+    context.arc(250,50,50,0,Math.PI*2,true);
+    context.closePath();
+context.fill();
+var text="HTML5 Canvas Rocks!";
+context.fillStyle="red";
+context.strokeStyle="black;
+context.font="36px Verdana";
+context.strokeText(text,45,60);
+inocrrect->context.strokeText(text,45,60);
+    
+}
+<canvas id="myCanvas" width="500" height="150"....>
+<body onload="onLoad()">
 =================
 Smashing HTML5
 +++++++++++++++++++
